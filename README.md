@@ -2,7 +2,7 @@
 
 A simple ARM template to quickly setup a minecraft server on azure
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://github.com/secret-agent-B/azure-minecraft-server/blob/e789b51b2424ddaeeab08ed992113cb99fdd22d4/templates/itzg-minecraft-server.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsecret-agent-B%2Fazure-minecraft-server%2Frefs%2Fheads%2Fmaster%2Ftemplates%2Fitzg-minecraft-server.json)
 
 ## What does it create
 
