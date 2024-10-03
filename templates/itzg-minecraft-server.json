@@ -10,13 +10,14 @@
     },
     "minecraftVersion": {
       "type": "string",
-      "defaultValue": "1.16.2",
+      "defaultValue": "1.20.1",
       "metadata": {
         "description": "The version that'll be used by your server"
       }
     },
     "serverOperators": {
       "type": "string",
+      "defaultValue": "secretAgentB932",
       "metadata": {
         "description": "The server operators usernames, comma-separated."
       }
@@ -91,6 +92,22 @@
                 {
                   "name": "OPS",
                   "value": "[parameters('serverOperators')]"
+                },
+                {
+                  "name": "TYPE",
+                  "value": "FORGE"
+                },
+                {
+                  "name": "FORGE_VERSION",
+                  "value": "47.1.46"
+                },
+                {
+                  "name": "MEMORY",
+                  "value": "8G"
+                },
+                {
+                  "name": "JVM_OPTS",
+                  "value": "-server -Xms4G -Xmx8G -XX:+UseG1GC"
                 }
               ],
               "resources": {
