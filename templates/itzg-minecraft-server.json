@@ -118,7 +118,7 @@
                 },
                 {
                   "name": "JVM_OPTS",
-                  "value": "-server -Xms1024M -Xmx4096M -XX:+UseG1GC -nogui"
+                  "value": "-server -Xms1024M -Xmx4096M -XX:+UseG1GC nogui"
                 }
               ],
               "resources": {
